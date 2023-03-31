@@ -4,7 +4,7 @@ import styles from "./MealItemForm.module.css";
 
 import Input from "../../UI/Input/Input";
 const MealItemForm = (props) => {
-  const [amountIsValid, setAmountIsValid] = useState(false);
+  const [amountIsValid, setAmountIsValid] = useState(true);
   const amountInputRef = useRef();
 
   const submitHandler = (event) => {
